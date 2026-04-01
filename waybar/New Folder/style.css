@@ -69,7 +69,6 @@ window#waybar {
 #window {
     padding: 0 8px;
     color: #bbbbbb;
-    margin-left: 6px;
 }
 
 #cpu {
@@ -101,7 +100,6 @@ window#waybar {
     padding: 0 6px 0 4px;
     font-size: 14px;
     color: #eeeeee;
-    margin-left: 3px;
 }
 
 tooltip {
