@@ -1,0 +1,139 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+  "logo": {
+    "source": "/home/syn/.config/fastfetch/catasci.tx",
+    "type": "file",
+    "width": 5,
+    "height": 1,
+    "color": {
+      "1": "38;2;201;184;144"
+    },
+    "padding": {
+      "top": 2,
+      "bottom":6,
+      "left": 1,
+      "right": 4
+    }
+  },
+
+  "display": {
+    "separator": "  ",
+    "color": {
+      "keys": "38;2;201;184;144"
+    }
+  },
+
+  "modules": [
+    // Spacer to vertically center info against logo
+    {
+      "type": "custom",
+      "format": ""
+    },
+    {
+      "type": "custom",
+      "format": ""
+    },
+    // Title
+    {
+      "type": "title",
+      "format": "{#1}{#}"
+    },
+    // System Information
+    {
+      "type": "custom",
+      "format": "{#1} {#}"
+    },
+    {
+      "type": "os",
+      "key": "{#separator}  {#keys}󰍹 OS"
+    },
+    {
+      "type": "kernel",
+      "key": "{#separator}  {#keys}󰒋 Kernel"
+    },
+    {
+      "type": "uptime",
+      "key": "{#separator}  {#keys}󰅐 Uptime"
+    },
+    
+    {
+      "type": "custom",
+      "format": "{#1}"
+    },
+    // Desktop Environment
+    {
+      "type": "custom",
+      "format": "{#1} {#}"
+    },
+    {
+      "type": "de",
+      "key": "{#separator}  {#keys}󰧨 DE"
+    },
+    {
+      "type": "wm",
+      "key": "{#separator}  {#keys}󱂬 WM"
+    },
+    {
+      "type": "wmtheme",
+      "key": "{#separator}  {#keys}󰉼 Theme"
+    },
+    {
+      "type": "display",
+      "key": "{#separator}  {#keys}󰹑 Resolution"
+    },
+    {
+      "type": "shell",
+      "key": "{#separator}  {#keys}󰞷 Shell"
+    },
+    {
+      "type": "terminalfont",
+      "key": "{#separator}  {#keys}󰛖 Font"
+    },
+    {
+      "type": "custom",
+      "format": "{#1}"
+    },
+    // Hardware Information
+    {
+      "type": "custom",
+      "format": "{#1} {#}"
+    },
+    {
+      "type": "cpu",
+      "key": "{#separator}  {#keys}󰻠 CPU"
+    },
+    {
+      "type": "memory",
+      "key": "{#separator}  {#keys}󰍛 Memory"
+    },
+    {
+      "type": "disk",
+      "key": "{#separator}  {#keys}󰋊 Disk (/)",
+      "folders": "/"
+    },
+    {
+      "type": "custom",
+      "format": "{#1}"
+    },
+    // Colors
+    {
+      "type": "colors",
+      "key": "{#separator}",
+      "symbol": "circle"
+    },
+    // Footer
+    {
+      "type": "custom",
+      "format": "{#1}"
+    },
+    {
+      "type": "custom",
+      "format": ""
+    },
+    {
+      "type": "custom",
+      "format": ""
+    }
+  ]
+}
