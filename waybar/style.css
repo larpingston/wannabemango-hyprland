@@ -2,7 +2,7 @@
     border: none;
     border-radius: 0;
     font-family: "JetBrains Mono", monospace;
-    font-size: 11px;
+    font-size: 12px;
     min-height: 0;
     transition: none;
     animation: none;
@@ -41,7 +41,7 @@ window#waybar {
     min-width: 20px;
     border-radius: 0;
     font-family: "JetBrains Mono", monospace;
-    font-size: 11px;
+    font-size: 12px;
     box-shadow: none;
     transition: none;
     animation: none;
@@ -109,5 +109,5 @@ tooltip {
     border: 1px solid #444444;
     color: #bbbbbb;
     font-family: "JetBrains Mono", monospace;
-    font-size: 11px;
+    font-size: 12px;
 }
